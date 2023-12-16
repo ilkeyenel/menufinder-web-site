@@ -1,0 +1,30 @@
+@media (min-width: 770px) {
+  #card {
+    max-width: 500px;
+  }
+
+  #card img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+  }
+}
+
+body{
+  background-color: rgb(165, 165, 224);
+}
+
+@media (max-width: 770px) {
+  #card {
+    max-width: 400px;
+  }
+
+  #card img {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+#card p {
+  font-size: 15px;
+}
